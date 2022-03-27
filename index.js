@@ -6,7 +6,7 @@ function writeCards(names, event) {
       messages.push("Thank you, " + names[i]+ "," + " for the wonderful " + event + " gift!")
     };
     return messages;
-  };
+};
 
 function countDown(fromNumber) {
     while (0 <= fromNumber) {
